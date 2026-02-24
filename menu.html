@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="navbar"></div>
+
+<h2>Table: <span id="table-number"></span></h2>
+
+<div id="menu-list"></div>
+
+<table border="1" width="100%">
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Qty</th>
+      <th>Price</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody id="cart-body"></tbody>
+</table>
+
+<h3 id="grand-total">Grand Total: ₹0</h3>
+
+<button id="submitBtn">Submit</button>
+<button id="printBtn">Print</button>
+<button id="downloadBtn">Download</button>
+<button id="refreshBtn">Refresh</button>
+
+<hr>
+<div id="invoice"></div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

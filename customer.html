@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Orders</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div id="navbar"></div>
+
+<h2 style="text-align:center">Customer Orders</h2>
+
+<div style="text-align:center;margin:15px">
+  <label>From:</label>
+  <input type="date" id="fromDate">
+  <label>To:</label>
+  <input type="date" id="toDate">
+  <button id="filterBtn">Filter</button>
+</div>
+
+<table id="orders-table" border="1" cellpadding="10" cellspacing="0" style="margin:auto;width:90%">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Table</th>
+      <th>Items</th>
+      <th>Quantity</th>
+      <th>Total</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
